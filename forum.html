@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validation</title>
+    <link rel="stylesheet" href="forum.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <div class="container">
+        <h1>Sign Up</h1>
+        <div id="inp1" class="inp1">
+          <input placeholder="Name" type="text" id="name" />
+        </div>
+        <div id="error">
+          <span id="span1">Name cant be blank </span>
+          <span id="span2">must contain alphets only</span>
+        </div>
+        <div id="inp2" class="inp2">
+          <input placeholder="Email" id="gmail" type="text" />
+        </div>
+        <div id="error">
+          <span id="span3">Email cant be blank</span>
+          <span id="span4">email is invalid</span>
+        </div>
+        <div id="inp3" class="inp3">
+          <input placeholder="Password" id="password" type="password" />
+        </div>
+        <div id="error">
+          <span id="span5">Password cant be blank </span>
+          <span id="span6">password should be of 6-10 letters</span>
+          <span id="span7"
+            >password should contain an uppercase,lowercase,digit</span
+          >
+        </div>
+        <div class="input4">
+          <input onclick="eclick()" id="button" type="button" value="Submit" />
+        </div>
+      </div>
+    </div>
+    <script src="forum.js"></script>
+  </body>
+</html>
